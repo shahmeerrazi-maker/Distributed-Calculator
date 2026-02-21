@@ -1,14 +1,4 @@
-[ Client 1 ]     [ Client 2 ]     [ Client 3 ]
-      \               |               /
-       \              |              /
-        \             |             /
-         \            |            /
-          +------------------------+
-          |    REQ/REP Server      |
-          |  (Handles math ops)    |
-          +------------------------+
-                   |
-            Returns JSON results
+<pre> ```text [ Client 1 ] [ Client 2 ] [ Client 3 ] \ | / \ | / \ | / \ | / +------------------------+ | REQ/REP Server | | (Handles math ops) | +------------------------+ | Returns JSON results ``` </pre>
 # Distributed Calculator
 
 A simple client-server calculator using **ZeroMQ (ZMQ)** to demonstrate parallel and distributed computing with real-time JSON requests.
